@@ -1,0 +1,48 @@
+name: flutter_ui_helper
+description: Flutter UI Helper.
+version: 1.0.0
+homepage:
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:                          # Required for every Flutter project
+    sdk: flutter                    # Required for every Flutter project
+  
+  flutter_localizations:            # Required to enable localization
+    sdk: flutter                    # Required to enable localization
+  intl: any                         # Required to enable localization
+
+  cupertino_icons: ^1.0.5           # Only required if you use Cupertino (iOS style) icons
+  equatable: ^2.0.5
+
+dev_dependencies:                   # Required for every Flutter project
+  flutter_test:                     # Required for a Flutter project that includes tests
+    sdk: flutter                    # Required for a Flutter project that includes tests
+  flutter_lints: ^3.0.1             # Contains a set of recommended lints for Flutter code
+
+flutter:                            # Required for every Flutter project
+  generate: true                    # Enables generation of localized strings from arb files
+  uses-material-design: true        # Required if you use the Material icon font
+
+  assets:                           # Lists assets, such as image files, fonts etc
+    - assets/images/
+    - assets/images/2x/
+    - assets/images/3x/
+    - assets/fonts/
+
+  fonts:                            # Required if your app uses custom fonts
+    - family: AllianzNeo
+      fonts:
+        - asset: assets/fonts/allianz-neo/AllianzNeo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/allianz-neo/AllianzNeo-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/allianz-neo/AllianzNeo-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/allianz-neo/AllianzNeo-Light.ttf
+          weight: 300
+        - asset: assets/fonts/allianz-neo/AllianzNeo-Italic.ttf
+          style: italic

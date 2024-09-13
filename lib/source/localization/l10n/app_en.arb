@@ -1,0 +1,12 @@
+{
+  "@@locale": "en",
+  "backButton": "Back",
+  
+  "alertTitle": "Warning!",
+  "alertYesBtn": "Yes",
+  "alertNoBtn": "No",
+  "alertOkBtn": "OK",
+  "alertCancelBtn": "Cancel",
+  "alertInstallBtn": "Install",
+  "alertFillAllData": "Please complete all fields."
+}

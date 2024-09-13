@@ -1,0 +1,12 @@
+{
+  "@@locale": "id",
+   "backButton": "Kembali",
+
+  "alertTitle": "Peringatan!",
+  "alertYesBtn": "Ya",
+  "alertNoBtn": "Tidak",
+  "alertOkBtn": "OK",
+  "alertCancelBtn": "Batal",
+  "alertInstallBtn": "Instal",
+  "alertFillAllData": "Harap lengkapi semua isian."
+}

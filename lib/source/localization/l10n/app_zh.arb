@@ -1,0 +1,12 @@
+{
+  "@@locale": "zh",
+  "backButton": "返回",
+  
+  "alertTitle": "警告！",
+  "alertYesBtn": "是",
+  "alertNoBtn": "否",
+  "alertOkBtn": "確定",
+  "alertCancelBtn": "取消",
+  "alertInstallBtn": "安裝",
+  "alertFillAllData": "請填寫所有資料。"
+}
